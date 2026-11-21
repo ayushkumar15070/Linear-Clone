@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px 20px 120px;
+    margin: auto;
+    /* background-color: rgb(136, 136, 136); */
+    border-bottom: 1px solid rgba(161, 159, 159, 0.189);
+    border-bottom-width: 200%;
+}
+
+.container .left-section img{
+    width: 90px;
+}
+
+.container .right-section ul{
+    display: flex;
+    align-items: center;
+}
+
+.container .btns{
+    display: flex;
+    align-items: center;
+}
+
+.container .right-section ul li a{
+    color: grey;
+    padding: 9px 10px;
+    border-radius: 34px;
+    background-color: transparent;
+    font-size: .8125rem;
+}
+
+.container .right-section ul li a:hover{
+    background-color: rgba(96, 96, 96, 0.41);
+    color: white;
+}
+
+.container .right-section .vertical-bar {
+    width: 1.5px;
+    background-color: rgba(255, 255, 255, 0.311);
+    height: 20px;
+    margin: 0 20px;
+}
+
+.container .right-section .log-in{
+    margin-right: 10px;
+}
+
+.container .right-section ul li a.sign-up{
+    background-color: rgba(255, 255, 255, 0.908);
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.container .right-section ul li a.sign-up:hover{
+    background-color: white;
+}
